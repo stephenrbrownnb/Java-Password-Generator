@@ -43,8 +43,7 @@ function writePassword() {
 // Password Generator
 for (let i = 0; i < passwordLength; i++) {
   let randomCharacter = Math.floor((Math.random() * possibleCharacters.length));
-  password += (possibleCharacters[randomCharacter]);
-
+  password += (possibleCharacters[randomCharacter]);  
 }
 
 generatePassword();
