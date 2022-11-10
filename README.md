@@ -7,7 +7,7 @@ Created a Random Password Generator which generates a random password between 8 
 
 
 ## Usage
-To start the process click on the "Generate Password" button which will guide you through several prompts to define your required password. As stated in the prompts Ok means yes and cancel means no.   
+To start the process click on the "Generate Password" button which will guide you through several prompts to define your required password. As stated in the prompts Ok means yes and cancel means no.  Site can be found at https://stephenrbrownnb.github.io/Java-Password-Generator/
 
 ![screenshot](screenshot.JPG)
 
