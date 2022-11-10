@@ -11,7 +11,7 @@ var generateBtn = document.querySelector("#generate");
 
 // Password Criteria 
 function writePassword() {
-  
+
   let passwordLength = prompt("How long should your password be? (Please choose a number between 8 and 128");
    if (passwordLength < 8) {alert("You must have at least 8 characters");writePassword();
 
@@ -47,7 +47,7 @@ for (let i = 0; i < passwordLength; i++) {
 
 }
 //Password reset 
-possibleCharacters = [];
+//possibleCharacters = [];
 generatePassword();
 }
 
@@ -55,6 +55,9 @@ generatePassword();
  function generatePassword(){ 
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
+  //Password reset 
+possibleCharacters = [];
+  password = [];
  //Password Test
  // console.log(password);
  }
