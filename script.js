@@ -39,7 +39,12 @@ function writePassword() {
 
    else if (possibleCharacters === ""){alert("You must choose at least one criteria for password");}
 
+// Password Generator
+for (let i = 0; i < passwordLength; i++) {
+  let randomCharacter = Math.floor((Math.random() * possibleCharacters.length));
+  password += (possibleCharacters[randomCharacter]);
 
+}
 
 
 
