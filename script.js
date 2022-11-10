@@ -45,16 +45,22 @@ for (let i = 0; i < passwordLength; i++) {
   password += (possibleCharacters[randomCharacter]);
 
 }
-
-
-
-
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
+//Password reset 
+possibleCharacters = [];
+generatePassword();
 }
+
+ //Display Password
+ function generatePassword(){ 
+  var passwordText = document.querySelector("#password");
+  passwordText.value = password;
+ //Password Test
+ // console.log(password);
+ }
+ 
+
+
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
